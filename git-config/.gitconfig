@@ -1,0 +1,20 @@
+# Este es el archivo de configuración de Git por usuario.
+[user]
+# Por favor, adapta y descomenta las siguientes líneas:
+#	name = Juan Diego
+#	email = ryoshi@Archcraft-R2D2.(none)
+
+[user]
+	email = Arenas250421@gmail.com
+	name = Juan Diego Arch
+	
+[alias]
+	br = branch
+	st = status
+	cm = commit -am
+	cmm = commit -m
+	ch = checkout
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	
+[init]
+	defaultBranch = main
